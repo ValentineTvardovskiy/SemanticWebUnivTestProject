@@ -28,7 +28,6 @@ public class ResourceController extends HttpServlet {
         String personSurname = request.getParameter("surname");
         ModelResource.create(personName, personSurname);
 
-        response.setContentType("text/html;charset=UTF-8");
         try ( PrintWriter out = response.getWriter()) {
             out.println("<!DOCTYPE html>");
             out.println("<html>");
