@@ -25,7 +25,7 @@
 
 
                 <h2 class="text-center">Create resource</h2>
-                <form action="${pageContext.request.contextPath}/resource" method="post">
+                <form action="${pageContext.request.contextPath}/create-resource" method="post">
                     <div class="form-group">
                         <label for="name">Name</label>
                         <input type="text" class="form-control" id="name" name="name" placeholder="Enter your name">

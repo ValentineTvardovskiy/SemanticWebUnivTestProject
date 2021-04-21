@@ -20,7 +20,7 @@ public class MainApp {
 
     static String PERSON_URI = "https://github.com/ValentineTvardovskiy";
     static String FULL_NAME = "Valentine Tvardovskiy";
-    static String GIVEN_NAME = "Valik";
+    static String GIVEN_NAME = "Valentine";
     static String FAMILY_NAME = "Tvardovskiy";
 
     public static void main(String[] args) throws FileNotFoundException {
